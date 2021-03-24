@@ -245,7 +245,7 @@ extern double auto_tuning_convergence_error;
 #define C_mul_2 (10)
 
 /* Max number of matrix rows - max number of possible neighbors. */
-#define	n_all_samples	(100)
+#define	n_all_samples	(1000)
 
 extern const double object_selection_prediction_threshold;
 extern const double object_selection_threshold;
