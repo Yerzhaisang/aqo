@@ -237,7 +237,7 @@ extern double auto_tuning_convergence_error;
 #define WIDTH_2 (150) // size of the output of the second layer
 #define lr (0.001) // learning rate
 #define slope (0.01) // parameter of non-activation layer
-#define N_ITERS (100) // number of iterations
+#define N_ITERS (5) // number of iterations
 #define beta_1 (0.9)
 #define beta_2 (0.999)
 #define eps (1e-08)
@@ -245,7 +245,7 @@ extern double auto_tuning_convergence_error;
 #define C_mul_2 (10)
 
 /* Max number of matrix rows - max number of possible neighbors. */
-#define	n_all_samples	(1000)
+#define	n_all_samples	(2000)
 
 extern const double object_selection_prediction_threshold;
 extern const double object_selection_threshold;
